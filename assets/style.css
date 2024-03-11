@@ -87,14 +87,14 @@ body {
 }
 
 .search-bar button i {
-    font-size: 22px ;
+    font-size: 22px;
     color: #e4e4e4;
 }
 
 .background {
     width: 100%;
     height: 100vh;
-    background: url(bg_head.jpg) no-repeat;
+    background: url(/assets/img/bg_head.jpg) no-repeat;
     background-size: cover;
     filter: blur(10px);
 }
@@ -106,7 +106,7 @@ body {
     transform: translate(-50%, -50%);
     width: 75%;
     height: 550px;
-    background: url(bg_head.jpg) no-repeat;
+    background: url(/assets/img/bg_head.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -191,9 +191,9 @@ body {
 }
 
 .logreg-box .form-box.register {
-    transform: translateX(430px);
+    /* transform: translateX(430px);
     transition: transform .6s ease;
-    transition-delay: 0s;
+    transition-delay: 0s; */
 }
 
 .logreg-box.active .form-box.register {
