@@ -1,0 +1,106 @@
+
+#rcorners1 {
+    border-radius: 25px;
+    z-index: 1; 
+    background-color: rgba(135, 179, 207, 0.1);
+    padding: 0px;  
+    width: 80%;
+    height: 200px; 
+    margin-left: 10%;
+    margin-right: 10%;
+  
+  
+  } 
+  
+  .wrapper {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+  
+  }
+  
+  
+  .wrapper > div {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+  
+  .wrapper:hover > div {
+    display: block;
+  }
+  
+  ul > li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .radio {
+    color: #070707;
+    padding: 4px;
+    text-align: left;
+  }
+  .custom-radio {
+    appearance: none;
+    outline: 2px solid rgb(15, 88, 133);
+    outline-offset: 2px;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+  }
+  .custom-radio:checked {
+    background-color: black ;
+  }
+  
+  p {
+    margin-top: 1px;
+    border: 0.5px solid;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid rgba(135, 179, 207, 0.1); 
+  }
+  
+  .main {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-right: 57px; 
+     
+  }
+  
+  .price > span, .dientich > span {
+    display: block;
+    
+  }
+  
+  .price, .dientich {
+    
+    position: relative;
+    border: 1px solid transparent;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -16px;
+    
+  }
+  
+  #search  {
+    width: 925px;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 50px;
+    border:#090909;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  
