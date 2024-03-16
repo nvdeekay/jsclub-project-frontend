@@ -1,0 +1,231 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HScJ286Rb0bcw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+#container{
+  display: flex;
+  height: 480px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 3%;
+  /* padding-right: 10px; */
+}
+#minicontainer {
+  flex:1;
+  display: flex;
+}
+.first-pic {
+  flex: 1;
+  background-image: url(house.jpg);
+  margin-right: 10px;
+  /* padding-left: 10px; */
+  border-radius: 10px 0px 0px 10px;
+  background-repeat: no-repeat;
+  /* object-fit: cover;
+  object-position: bottom; */
+  background-size: cover;
+  /* max-width: 100%;
+  height: auto; */ 
+}
+.second-pic {
+  flex: 1;
+  display: flex;
+  margin-right: 10px; 
+  flex-direction: column; 
+  
+}
+.second-pic1{
+  flex: 1;
+  /* width: 100%; */
+  background-image: url(house1.png);
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  background-size: cover; 
+  max-width: 100%;
+  height: auto;
+
+}
+.second-pic2{
+  flex: 1;
+  /* width: 100%; */
+  background-image: url(house1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: auto;
+
+}
+ .third-pic{
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+.third-pic1{
+  flex:1;
+  /* width: 100%; */
+  background-image: url(house1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 0px 10px 0px 0px;
+}
+.third-pic2{
+  flex: 1;
+  /* flex: 1; */
+  background-image: url(house1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* max-width: 100%;
+  height: auto; */
+  border-radius: 0px 0px 10px 0px;
+} 
+
+#rcorners1 {
+    border-radius: 12px;
+    z-index: 1; 
+    background-color: #0045A8;
+    width: 300px;
+    height: 15%; 
+    /* margin-left: 10%; */  
+} 
+
+#main-content {
+  display: flex;
+}
+#content{
+  flex-basis: 80%;
+}
+#ten {
+  /* margin-left: 100px; */
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 250%;
+  color: #0045A8;
+}
+
+table {
+  margin-left: 20px;
+  width: 90%;
+  /* height: 330; */
+  margin-bottom: 3%;
+}
+table, td, th {
+  border: 1px solid gainsboro;
+  border-collapse: collapse;
+}
+td{ 
+  color: #0045A8;
+}
+td,th { 
+  padding: 10px 10px;
+}
+table th {
+  text-align: left;
+}
+#sidebar {
+  flex-basis: 20%;
+  margin-right: 5px;
+}
+
+
+hr {
+  width: 400px;
+  text-align: center;
+}
+.lc {
+  font-size: 120%;
+  padding-left: 10%;
+  padding-bottom: 10px ;
+  margin-left: 20px;
+  color:white;
+}
+
+#lienhe {
+  font-size: 130%;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: -15px;
+  padding: 30px 0px 0px;
+}
+.chuthongtin {
+  color: #0045A8;
+  font-size: 20px;
+}
+.thongtin{
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 3%;
+  padding: 30px;
+  width: 90%  ;
+  border: 1px solid gainsboro;
+}
+
+#tiennghi, .tienich{
+  border: 0;
+}
+
+.tienich {
+  font-size: 15px;
+  color:black;
+}
+
+svg {
+  margin-right: 10px;
+  margin-left: -20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  *{
+    margin:0;
+    padding: 0;
+  }
+  #sidebar { 
+    display: none;
+  }
+
+  #main-content {
+    width: 100%;
+    padding-right: 20px;
+  }
+  #content {
+    flex-basis: 100%;
+    /* padding-right: 10px; */
+  }
+  table {
+    width: 100%;
+  }
+  .thongtin{
+    width: 100%;
+  }
+  table {
+    margin-left: 10px;
+  }
+  .thongtin {
+    margin-left: 10px;
+  }
+  #container{
+    /* flex-wrap: wrap; */
+     flex-direction: column; 
+    /* max-width: 1200px; */
+    height: 900px;
+    width: 100%;   
+    /* padding-right  :20px; */
+  }
+  .first-pic{
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .third-pic1{
+    border-radius: 0px 0px 0px 0px;
+  }
+  .third-pic2{
+    border-radius: 0px 0px 0px 0px;
+  }
+}
